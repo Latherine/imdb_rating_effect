@@ -13,7 +13,7 @@ This repository contains Jupyter analyses that explore how director experience a
 - `analysis.html` — (optional) HTML export of the notebook for quick viewing.
 - `.gitignore` — ignores common Python/Jupyter artifacts (and `imdb.db` by default).
 - (not tracked) `imdb.db` — the SQLite database snapshot (see Data section to download).
-
+- LICENSE 
 ---
 
 ## Quickstart
@@ -126,7 +126,12 @@ imdb, sqlite, pandas, sqlalchemy, jupyter-notebook, python, data-analysis, data-
 ---
 
 ## License
-This repository is available under the MIT License. Replace the LICENSE file contents with your preferred license if you want something different.
+
+This repository's code and notebooks are licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+Data: the SQLite database (imdb.db) is not included in this repository. If you download the database from the provided SharePoint link, please obey any separate terms or access restrictions that apply to that dataset; those terms may differ from the code license above. If you intend to redistribute the database, check the database owner's permissions before doing so.
+
+If you accept contributions, by contributing code you agree that those contributions will be licensed under the same license (MIT) unless otherwise noted.
 
 ---
 
@@ -135,8 +140,5 @@ This repository is available under the MIT License. Replace the LICENSE file con
 - If you add derived data or large files, place them under a `data/` folder and note them in `.gitignore` if they should not be tracked.
 - Please include reproducible steps when filing issues.
 
----
 
-If you'd like, I can also:
-- generate a `requirements.txt` for you, or
-- add a short `LICENSE` (MIT) file ready to commit.
+
